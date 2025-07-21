@@ -1,0 +1,218 @@
+import TransferList from '@/components/transfers/TransferList';
+'use client';
+
+import React, { useState, useEffect, useRef } from 'react';
+import { supabase } from '@/lib/supabaseClient';
+import type { User } from '@supabase/supabase-js';
+import dynamic from 'next/dynamic';
+import Button from '@/components/ui/Button';
+import Input from '@/components/ui/Input';
+import Select from '@/components/ui/Select';
+import TransferStatusBadge from '@/components/transfer/TransferStatusBadge';
+import TransferList from '@/components/transfers/TransferList';
+import type { Transfer } from '@/types/transfer-types';
+
+const QRCodeCanvas = dynamic(() => import('qrcode.react').then(mod => mod.QRCodeCanvas), { ssr: false });
+
+type AppUser = {
+  id: string;
+  email: string;
+  full_name?: string | null;
+};
+
+export default function DashboardPage() {
+  const [user, setUser] = useState<User | null>(null);
+  const [transfers, setTransfers] = useState<Transfer[]>([]);
+  const [loading, setLoading] = useState(false);
+  const [showSent, setShowSent] = useState(true);
+
+  const [recipient, setRecipient] = useState('');
+  const [amount, setAmount] = useState('');
+  const [message, setMessage] = useState('');
+  const [isAnonymous, setIsAnonymous] = useState(false);
+  const [usersList, setUsersList] = useState<AppUser[]>([]);
+
+  const bottomRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    async function getSession() {
+      const { data } = await supabase.auth.getSession();
+      setUser(data.session?.user ?? null);
+    }
+    getSession();
+  }, []);
+
+  useEffect(() => {
+    if (user) {
+      fetchTransfers();
+      fetchUsers();
+    } else {
+      setTransfers([]);
+      setUsersList([]);
+    }
+  }, [user, showSent]);
+
+  async function fetchTransfers() {
+    setLoading(true);
+
+    let query = supabase.from('transfers').select('*');
+
+    if (showSent && user) {
+      query = query.eq('from_user', user.email ?? '');
+    } else if (!showSent && user) {
+      query = query.eq('to_user', user.email ?? '');
+    }
+
+    const { data, error } = await query.order('id', { ascending: false });
+    setLoading(false);
+
+    if (error) {
+      console.error(error);
+      return;
+    }
+
+    setTransfers((data as Transfer[]) ?? []);
+    setTimeout(() => {
+      bottomRef.current?.scrollIntoView({ behavior: 'smooth' });
+    }, 100);
+  }
+
+  async function fetchUsers() {
+    const { data, error } = await supabase.from('users').select('id, email, full_name');
+    if (error) {
+      console.error('Failed to fetch users:', error);
+      setUsersList([]);
+      return;
+    }
+    setUsersList(data as AppUser[] ?? []);
+  }
+
+  async function handleSendTransfer() {
+    if (!user) {
+      alert('Please log in to send transfers');
+      return;
+    }
+    if (!recipient) {
+      alert('Please select a recipient');
+      return;
+    }
+    if (!amount || Number(amount) <= 0) {
+      alert('Please enter a valid amount');
+      return;
+    }
+    const now = new Date().toISOString();
+
+    const newTransfer: Omit<Transfer, 'id'> = {
+      from_user: isAnonymous ? 'Anonymous' : user.email ?? '',
+      to_user: recipient,
+      step: 'Sent',
+      timestamp: now,
+      amount: Number(amount),
+      message: message.trim() || null,
+      sent_at: now,
+    };
+
+    const { data, error } = await supabase.from('transfers').insert([newTransfer]);
+
+    if (error) {
+      alert('Failed to send transfer: ' + error.message);
+      return;
+    }
+
+    setRecipient('');
+    setAmount('');
+    setMessage('');
+    setIsAnonymous(false);
+    fetchTransfers();
+  }
+
+  function toggleShowSent() {
+    setShowSent(!showSent);
+  }
+
+  if (!user) {
+    return (
+      <main className="flex min-h-screen items-center justify-center p-8 bg-white">
+        <p className="text-center text-gray-600">Please log in to view your dashboard.</p>
+      </main>
+    );
+  }
+
+  return (
+    <main className="min-h-screen p-8 bg-white max-w-3xl mx-auto">
+      <h1 className="text-3xl font-bold mb-6">Dashboard for {user.email}</h1>
+
+      <div className="mb-6 flex items-center gap-4">
+        <Button variant={showSent ? 'primary' : 'secondary'} onClick={toggleShowSent}>
+          Show {showSent ? 'Sent' : 'Received'} Transfers
+        </Button>
+      </div>
+
+      <div className="mb-8 p-4 border rounded bg-gray-50">
+        <h2 className="text-xl font-semibold mb-4">Create New Transfer</h2>
+        <label htmlFor="recipient-select" className="block mb-2 font-medium">Recipient:</label>
+        <Select
+          id="recipient-select"
+          value={recipient}
+          onChange={(e) => setRecipient(e.target.value)}
+          className="mb-4"
+        >
+          <option value="">-- Select recipient --</option>
+          {usersList.map((u) => (
+            <option key={u.id} value={u.email}>
+              {u.full_name ? `${u.full_name} (${u.email})` : u.email}
+            </option>
+          ))}
+        </Select>
+
+        <label htmlFor="amount-input" className="block mb-2 font-medium">Amount:</label>
+        <Input
+          id="amount-input"
+          type="number"
+          min="0"
+          step="0.01"
+          value={amount}
+          onChange={(e) => setAmount(e.target.value)}
+          placeholder="Enter amount"
+          className="mb-4"
+        />
+
+        <label htmlFor="message-textarea" className="block mb-2 font-medium">Message (optional):</label>
+        <textarea
+          id="message-textarea"
+          value={message}
+          onChange={(e) => setMessage(e.target.value)}
+          className="border border-gray-300 rounded p-2 mb-4 w-full"
+          placeholder="Write a message..."
+          rows={3}
+        />
+
+        <label className="inline-flex items-center mb-4">
+          <input
+            type="checkbox"
+            checked={isAnonymous}
+            onChange={(e) => setIsAnonymous(e.target.checked)}
+            className="mr-2"
+          />
+          Send anonymously
+        </label>
+
+        <Button onClick={handleSendTransfer} disabled={loading}>
+          Send Goodness
+        </Button>
+      </div>
+
+      <TransferList
+        transfers={transfers}
+        showSent={showSent}
+        loading={loading}
+        bottomRef={bottomRef as React.RefObject<HTMLDivElement>}
+      />
+
+      <div className="mt-10 text-center">
+        <h2 className="text-2xl font-semibold mb-4">Your QR Code</h2>
+        <QRCodeCanvas value={`https://iTip.life/user/${user.email}`} size={160} />
+      </div>
+    </main>
+  );
+}

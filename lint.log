@@ -1,0 +1,1317 @@
+
+> sistema-dobra@0.1.0 lint
+> eslint . --ext .js,.jsx,.ts,.tsx
+
+
+/Users/inga/sistema-dobra/.next/server/app/favicon.ico/route.js
+   20:9   warning  '__unused_webpack_module' is defined but never used  @typescript-eslint/no-unused-vars
+   20:34  warning  '__webpack_exports__' is defined but never used      @typescript-eslint/no-unused-vars
+   20:55  warning  '__webpack_require__' is defined but never used      @typescript-eslint/no-unused-vars
+   30:9   warning  '__unused_webpack_module' is defined but never used  @typescript-eslint/no-unused-vars
+   30:34  warning  '__webpack_exports__' is defined but never used      @typescript-eslint/no-unused-vars
+   30:55  warning  '__webpack_require__' is defined but never used      @typescript-eslint/no-unused-vars
+   42:18  error    A `require()` style import is forbidden              @typescript-eslint/no-require-imports
+   52:18  error    A `require()` style import is forbidden              @typescript-eslint/no-require-imports
+   62:18  error    A `require()` style import is forbidden              @typescript-eslint/no-require-imports
+   72:18  error    A `require()` style import is forbidden              @typescript-eslint/no-require-imports
+   82:18  error    A `require()` style import is forbidden              @typescript-eslint/no-require-imports
+   92:18  error    A `require()` style import is forbidden              @typescript-eslint/no-require-imports
+  102:18  error    A `require()` style import is forbidden              @typescript-eslint/no-require-imports
+  110:27  error    A `require()` style import is forbidden              @typescript-eslint/no-require-imports
+
+/Users/inga/sistema-dobra/.next/server/app/page.js
+   19:9   warning  '__unused_webpack_module' is defined but never used                                                        @typescript-eslint/no-unused-vars
+   19:34  warning  '__webpack_exports__' is defined but never used                                                            @typescript-eslint/no-unused-vars
+   19:55  warning  '__webpack_require__' is defined but never used                                                            @typescript-eslint/no-unused-vars
+   30:9   warning  '__unused_webpack_module' is defined but never used                                                        @typescript-eslint/no-unused-vars
+   30:34  warning  '__unused_webpack_exports' is defined but never used                                                       @typescript-eslint/no-unused-vars
+   30:60  warning  '__webpack_require__' is defined but never used                                                            @typescript-eslint/no-unused-vars
+   40:9   warning  '__unused_webpack_module' is defined but never used                                                        @typescript-eslint/no-unused-vars
+   40:34  warning  '__unused_webpack_exports' is defined but never used                                                       @typescript-eslint/no-unused-vars
+   40:60  warning  '__webpack_require__' is defined but never used                                                            @typescript-eslint/no-unused-vars
+   50:9   warning  '__unused_webpack_module' is defined but never used                                                        @typescript-eslint/no-unused-vars
+   50:34  warning  '__unused_webpack_exports' is defined but never used                                                       @typescript-eslint/no-unused-vars
+   50:60  warning  '__webpack_require__' is defined but never used                                                            @typescript-eslint/no-unused-vars
+   70:9   warning  '__unused_webpack_module' is defined but never used                                                        @typescript-eslint/no-unused-vars
+   70:34  warning  '__webpack_exports__' is defined but never used                                                            @typescript-eslint/no-unused-vars
+   70:55  warning  '__webpack_require__' is defined but never used                                                            @typescript-eslint/no-unused-vars
+   81:9   warning  '__unused_webpack_module' is defined but never used                                                        @typescript-eslint/no-unused-vars
+   81:34  warning  '__webpack_exports__' is defined but never used                                                            @typescript-eslint/no-unused-vars
+   81:55  warning  '__webpack_require__' is defined but never used                                                            @typescript-eslint/no-unused-vars
+   92:9   warning  '__unused_webpack_module' is defined but never used                                                        @typescript-eslint/no-unused-vars
+   92:34  warning  '__webpack_exports__' is defined but never used                                                            @typescript-eslint/no-unused-vars
+   92:55  warning  '__webpack_require__' is defined but never used                                                            @typescript-eslint/no-unused-vars
+  103:9   warning  '__unused_webpack_module' is defined but never used                                                        @typescript-eslint/no-unused-vars
+  103:34  warning  '__webpack_exports__' is defined but never used                                                            @typescript-eslint/no-unused-vars
+  103:55  warning  '__webpack_require__' is defined but never used                                                            @typescript-eslint/no-unused-vars
+  122:26  warning  'react_server_dom_webpack_server__WEBPACK_IMPORTED_MODULE_0___default' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  145:26  warning  'react_server_dom_webpack_server__WEBPACK_IMPORTED_MODULE_0___default' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  160:9   warning  '__unused_webpack_module' is defined but never used                                                        @typescript-eslint/no-unused-vars
+  160:34  warning  '__unused_webpack_exports' is defined but never used                                                       @typescript-eslint/no-unused-vars
+  160:60  warning  '__webpack_require__' is defined but never used                                                            @typescript-eslint/no-unused-vars
+  170:9   warning  '__unused_webpack_module' is defined but never used                                                        @typescript-eslint/no-unused-vars
+  170:34  warning  '__unused_webpack_exports' is defined but never used                                                       @typescript-eslint/no-unused-vars
+  170:60  warning  '__webpack_require__' is defined but never used                                                            @typescript-eslint/no-unused-vars
+  180:9   warning  '__unused_webpack_module' is defined but never used                                                        @typescript-eslint/no-unused-vars
+  180:34  warning  '__unused_webpack_exports' is defined but never used                                                       @typescript-eslint/no-unused-vars
+  180:60  warning  '__webpack_require__' is defined but never used                                                            @typescript-eslint/no-unused-vars
+  200:9   warning  '__unused_webpack_module' is defined but never used                                                        @typescript-eslint/no-unused-vars
+  200:34  warning  '__webpack_exports__' is defined but never used                                                            @typescript-eslint/no-unused-vars
+  200:55  warning  '__webpack_require__' is defined but never used                                                            @typescript-eslint/no-unused-vars
+  211:9   warning  '__unused_webpack_module' is defined but never used                                                        @typescript-eslint/no-unused-vars
+  211:34  warning  '__webpack_exports__' is defined but never used                                                            @typescript-eslint/no-unused-vars
+  211:55  warning  '__webpack_require__' is defined but never used                                                            @typescript-eslint/no-unused-vars
+  225:18  error    A `require()` style import is forbidden                                                                    @typescript-eslint/no-require-imports
+  236:18  error    A `require()` style import is forbidden                                                                    @typescript-eslint/no-require-imports
+  247:18  error    A `require()` style import is forbidden                                                                    @typescript-eslint/no-require-imports
+  258:18  error    A `require()` style import is forbidden                                                                    @typescript-eslint/no-require-imports
+  269:18  error    A `require()` style import is forbidden                                                                    @typescript-eslint/no-require-imports
+  280:18  error    A `require()` style import is forbidden                                                                    @typescript-eslint/no-require-imports
+  291:18  error    A `require()` style import is forbidden                                                                    @typescript-eslint/no-require-imports
+  302:18  error    A `require()` style import is forbidden                                                                    @typescript-eslint/no-require-imports
+  313:18  error    A `require()` style import is forbidden                                                                    @typescript-eslint/no-require-imports
+  324:18  error    A `require()` style import is forbidden                                                                    @typescript-eslint/no-require-imports
+  335:18  error    A `require()` style import is forbidden                                                                    @typescript-eslint/no-require-imports
+  346:18  error    A `require()` style import is forbidden                                                                    @typescript-eslint/no-require-imports
+  354:27  error    A `require()` style import is forbidden                                                                    @typescript-eslint/no-require-imports
+
+/Users/inga/sistema-dobra/.next/server/vendor-chunks/@swc.js
+  18:9   warning  '__unused_webpack_module' is defined but never used  @typescript-eslint/no-unused-vars
+  18:34  warning  'exports' is defined but never used                  @typescript-eslint/no-unused-vars
+  28:9   warning  '__unused_webpack_module' is defined but never used  @typescript-eslint/no-unused-vars
+  28:34  warning  'exports' is defined but never used                  @typescript-eslint/no-unused-vars
+  38:9   warning  '__unused_webpack_module' is defined but never used  @typescript-eslint/no-unused-vars
+  38:34  warning  'exports' is defined but never used                  @typescript-eslint/no-unused-vars
+  48:9   warning  '__unused_webpack_module' is defined but never used  @typescript-eslint/no-unused-vars
+  48:34  warning  'exports' is defined but never used                  @typescript-eslint/no-unused-vars
+
+/Users/inga/sistema-dobra/.next/server/vendor-chunks/next.js
+    17:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+    17:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+    17:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+    28:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+    28:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+    28:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+    39:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+    39:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+    50:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+    50:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+    50:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+    74:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+    74:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+    74:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+   111:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+   111:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   135:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+   135:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   135:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+   146:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+   146:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   157:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+   157:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   157:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+   181:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+   181:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   218:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+   218:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   218:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+   229:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+   229:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   253:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+   253:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   253:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+   264:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+   264:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   275:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+   275:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   286:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+   297:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+   307:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+   317:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+   327:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+   337:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   337:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   337:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+   348:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+   348:17  warning  '__unused_webpack_exports' is defined but never used  @typescript-eslint/no-unused-vars
+   348:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+   369:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+   379:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+   389:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   389:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   389:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+   400:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   400:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   411:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   411:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   422:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   422:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   433:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   433:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   444:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   444:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   455:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   455:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   455:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+   466:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   466:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   477:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   477:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   488:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   488:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   488:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+   499:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   499:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   510:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   510:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   521:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   521:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   532:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   532:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   532:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+   543:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   543:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   543:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+   567:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   567:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   567:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+   578:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   578:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   578:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+   589:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   589:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   589:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+   600:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   600:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   611:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   611:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   611:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+   622:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   622:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   622:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+   633:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   633:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   644:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   644:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   644:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+   655:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   655:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   655:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+   666:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   666:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   666:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+   677:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   677:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   677:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+   688:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   688:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   688:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+   699:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   699:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   710:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   710:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   710:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+   721:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   721:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   732:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   732:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   743:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   743:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   754:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   754:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   754:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+   778:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   778:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   778:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+   789:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   789:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   789:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+   800:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   800:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   800:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+   811:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   811:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   811:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+   822:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   822:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   822:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+   833:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   833:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   833:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+   844:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   844:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   844:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+   855:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   855:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   855:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+   866:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   866:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   877:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   877:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   877:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+   888:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   888:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   899:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   899:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   899:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+   910:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   910:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   910:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+   921:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   921:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   921:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+   932:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   932:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   932:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+   943:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   943:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   954:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   954:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   954:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+   965:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   965:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   965:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+   976:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   976:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   987:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   987:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+   987:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+   998:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+   998:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1009:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1009:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1020:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1020:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1020:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1031:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1031:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1031:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1042:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1042:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1053:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1053:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1064:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1064:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1064:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1075:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1075:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1086:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1086:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1097:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1097:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1108:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1108:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1108:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1119:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1119:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1130:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1130:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1130:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1141:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1141:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1141:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1152:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1152:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1152:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1163:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1163:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1174:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1174:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1174:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1185:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1185:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1185:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1196:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1196:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1196:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1207:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1207:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1218:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1218:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1218:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1229:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1229:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1229:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1240:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1240:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1240:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1251:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1251:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1251:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1262:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1262:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1262:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1273:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1273:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1273:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1284:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1284:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1295:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1295:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1295:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1306:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1306:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1317:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  1317:17  warning  '__unused_webpack_exports' is defined but never used  @typescript-eslint/no-unused-vars
+  1317:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1328:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  1328:17  warning  '__unused_webpack_exports' is defined but never used  @typescript-eslint/no-unused-vars
+  1328:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1339:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  1339:17  warning  '__unused_webpack_exports' is defined but never used  @typescript-eslint/no-unused-vars
+  1339:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1350:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  1350:17  warning  '__unused_webpack_exports' is defined but never used  @typescript-eslint/no-unused-vars
+  1350:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1361:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  1361:17  warning  '__unused_webpack_exports' is defined but never used  @typescript-eslint/no-unused-vars
+  1361:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1372:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  1372:17  warning  '__unused_webpack_exports' is defined but never used  @typescript-eslint/no-unused-vars
+  1372:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1383:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1383:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1383:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1394:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1394:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1394:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1405:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1405:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1416:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1416:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1416:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1427:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1427:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1438:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1438:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1449:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1449:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1449:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1460:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1460:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1460:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1471:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1471:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1471:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1482:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1482:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1493:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1493:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1493:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1504:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1504:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1504:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1515:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1515:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1515:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1526:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1526:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1537:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  1537:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1548:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1548:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1559:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1559:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1570:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1570:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1581:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1581:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1592:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1592:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1603:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1603:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1614:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1614:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1625:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1625:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1636:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  1636:17  warning  '__unused_webpack_exports' is defined but never used  @typescript-eslint/no-unused-vars
+  1636:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1647:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1647:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1658:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1658:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1669:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1669:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1680:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1680:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1680:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1691:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1691:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1691:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1702:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1702:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1702:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1713:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1713:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1713:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1724:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1724:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1724:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1735:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1735:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1735:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1746:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1746:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1746:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1757:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1757:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1768:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1768:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1768:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1779:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1779:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1779:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1790:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1790:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1801:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1801:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1801:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1812:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1812:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1812:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1823:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1823:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1823:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1834:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1834:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1834:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1845:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1845:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1845:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1856:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1856:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1867:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1867:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1867:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1878:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1878:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1889:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1889:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1889:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1900:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1900:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1900:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1911:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1911:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1922:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1922:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1922:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1933:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1933:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1944:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1944:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1955:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1955:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1966:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1966:34  warning  '__webpack_exports__' is defined but never used       @typescript-eslint/no-unused-vars
+  1966:55  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1977:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  1977:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1988:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  1988:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  1988:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  1999:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  1999:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2010:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2010:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2021:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2021:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2021:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2032:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2032:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2032:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2043:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2043:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2043:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2054:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2054:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2054:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2065:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2065:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2065:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2076:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2076:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2076:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2087:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2087:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2087:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2098:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2098:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2098:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2109:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2109:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2120:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2120:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2120:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2131:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2131:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2142:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2142:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2142:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2153:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2153:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2153:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2164:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2164:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2175:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2175:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2175:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2186:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2186:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2186:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2197:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2197:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2197:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2208:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2208:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2208:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2219:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2219:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2219:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2230:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2230:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2230:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2241:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2241:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2241:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2252:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2252:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2252:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2263:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2263:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2263:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2274:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2274:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2285:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2285:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2285:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2296:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2296:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2296:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2307:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2307:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2318:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2318:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2318:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2329:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2329:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2329:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2340:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2340:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2351:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2351:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2351:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2362:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2362:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2373:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2373:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2373:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2384:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2384:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2395:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2395:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2395:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2406:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2406:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2417:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2417:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2417:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2428:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2428:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2428:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2439:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2439:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2439:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2450:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2450:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2450:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2461:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2461:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2461:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2472:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2472:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2472:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2483:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2483:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2494:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2494:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2494:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2505:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2505:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2516:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2516:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2527:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2527:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2538:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2538:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2538:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2549:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2549:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2549:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2560:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  2560:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2570:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2580:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2591:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  2591:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2591:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2602:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  2602:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2602:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2613:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  2613:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2624:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  2624:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2635:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2635:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2646:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2646:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2657:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2657:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2657:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2668:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2668:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2668:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2679:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2679:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2679:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2690:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2690:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2690:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2701:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2701:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2701:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2712:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2712:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2712:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2723:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2723:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2723:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2734:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2734:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2745:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2745:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2745:26  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2756:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  2756:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2756:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2767:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  2767:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2767:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2778:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  2778:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2789:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  2789:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2800:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  2800:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2811:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  2811:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2811:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2822:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  2822:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2822:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2833:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  2833:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2833:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2844:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2844:17  warning  '__unused_webpack_exports' is defined but never used  @typescript-eslint/no-unused-vars
+  2844:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2855:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2855:17  warning  '__unused_webpack_exports' is defined but never used  @typescript-eslint/no-unused-vars
+  2855:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2866:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2866:17  warning  '__unused_webpack_exports' is defined but never used  @typescript-eslint/no-unused-vars
+  2866:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2877:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2877:17  warning  '__unused_webpack_exports' is defined but never used  @typescript-eslint/no-unused-vars
+  2877:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2888:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2888:17  warning  '__unused_webpack_exports' is defined but never used  @typescript-eslint/no-unused-vars
+  2888:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2899:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2899:17  warning  '__unused_webpack_exports' is defined but never used  @typescript-eslint/no-unused-vars
+  2899:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2910:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2910:17  warning  '__unused_webpack_exports' is defined but never used  @typescript-eslint/no-unused-vars
+  2910:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2921:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2921:17  warning  '__unused_webpack_exports' is defined but never used  @typescript-eslint/no-unused-vars
+  2921:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2932:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2932:17  warning  '__unused_webpack_exports' is defined but never used  @typescript-eslint/no-unused-vars
+  2932:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2943:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2943:17  warning  '__unused_webpack_exports' is defined but never used  @typescript-eslint/no-unused-vars
+  2943:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2954:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  2954:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2965:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  2965:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2976:9   warning  'module' is defined but never used                    @typescript-eslint/no-unused-vars
+  2976:17  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2987:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  2987:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  2987:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  2998:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  2998:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  3009:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  3009:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  3020:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  3020:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  3031:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  3031:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  3042:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  3042:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  3053:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  3053:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  3064:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  3064:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  3075:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  3075:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  3075:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  3086:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  3086:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  3086:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  3097:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  3097:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  3097:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  3108:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  3108:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  3108:43  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+  3119:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  3119:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  3130:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  3130:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+  3141:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  3141:34  warning  'exports' is defined but never used                   @typescript-eslint/no-unused-vars
+
+/Users/inga/sistema-dobra/.next/server/vendor-chunks/qrcode.react.js
+  18:9   warning  '__unused_webpack___webpack_module__' is defined but never used  @typescript-eslint/no-unused-vars
+  18:46  warning  '__webpack_exports__' is defined but never used                  @typescript-eslint/no-unused-vars
+  18:67  warning  '__webpack_require__' is defined but never used                  @typescript-eslint/no-unused-vars
+
+/Users/inga/sistema-dobra/.next/server/vendor-chunks/react-error-boundary.js
+  18:9   warning  '__unused_webpack___webpack_module__' is defined but never used  @typescript-eslint/no-unused-vars
+  18:46  warning  '__webpack_exports__' is defined but never used                  @typescript-eslint/no-unused-vars
+  18:67  warning  '__webpack_require__' is defined but never used                  @typescript-eslint/no-unused-vars
+
+/Users/inga/sistema-dobra/.next/server/webpack-runtime.js
+   16:12  error    Do not assign to the variable `module`. See: https://nextjs.org/docs/messages/no-assign-module-variable  @next/next/no-assign-module-variable
+  153:21  warning  Expected an assignment or function call and instead saw an expression                                    @typescript-eslint/no-unused-expressions
+  186:54  warning  'promises' is defined but never used                                                                     @typescript-eslint/no-unused-vars
+  190:28  error    A `require()` style import is forbidden                                                                  @typescript-eslint/no-require-imports
+
+/Users/inga/sistema-dobra/.next/static/chunks/app/not-found.js
+  15:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  15:34  warning  '__unused_webpack_exports' is defined but never used  @typescript-eslint/no-unused-vars
+  15:60  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+
+/Users/inga/sistema-dobra/.next/static/chunks/main-app.js
+  1793:9   warning  '__unused_webpack_module' is defined but never used   @typescript-eslint/no-unused-vars
+  1793:34  warning  '__unused_webpack_exports' is defined but never used  @typescript-eslint/no-unused-vars
+  1793:60  warning  '__webpack_require__' is defined but never used       @typescript-eslint/no-unused-vars
+
+/Users/inga/sistema-dobra/.next/static/chunks/polyfills.js
+  1:1       warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:532     warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:1923    warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:2443    warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:2708    warning  'r' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:4295    warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:4803    warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:4998    warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:5395    warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:5721    warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:5937    warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:6593    warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:6877    warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:6989    warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:7188    warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:7272    warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:7298    warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:7338    warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:7342    warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:8113    warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:8158    warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:8635    warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:9168    warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:9563    warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:9691    warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:10194   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:10287   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:10802   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:10847   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:11656   warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:11902   warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:12081   warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:12957   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:13182   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:13552   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:13667   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:14857   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:15006   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:15167   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:15485   warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:15705   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:15781   warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:16640   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:17180   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:17442   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:17790   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:17921   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:18015   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:18185   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:18257   warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:18312   warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:18346   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:18418   warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:18585   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:19227   warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:19231   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:19646   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:20042   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:20131   warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:20355   warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:20464   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:20871   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:20929   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:21479   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:22850   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:23069   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:23478   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:23647   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:24191   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:24259   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:24343   error    Unexpected aliasing of 'this' to local variable                        @typescript-eslint/no-this-alias
+  1:24398   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:25034   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:25763   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:25829   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:26576   warning  'e' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:26664   warning  'e' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:26958   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:27165   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:27449   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:28217   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:28379   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:28975   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:29774   warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:29913   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:30065   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:30913   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:31892   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:31924   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:32078   error    Unexpected aliasing of 'this' to local variable                        @typescript-eslint/no-this-alias
+  1:32133   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:32482   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:32833   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:32957   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:34054   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:34168   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:34365   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:34648   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:35769   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:36361   warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:36584   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:37311   warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:37448   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:37722   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:37887   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:37927   warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:38381   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:38591   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:39522   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:40081   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:40189   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:41801   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:43725   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:45027   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:45147   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:45192   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:45370   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:45570   warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:45632   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:45775   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:45991   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:46479   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:46535   error    Unexpected aliasing of 'this' to local variable                        @typescript-eslint/no-this-alias
+  1:47202   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:47427   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:47474   warning  'e' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:47871   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:48858   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:48900   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:49484   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:50380   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:50664   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:50694   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:50773   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:51027   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:51091   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:51375   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:53004   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:53656   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:53715   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:53997   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:54704   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:55161   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:55217   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:55443   warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:55462   warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:55685   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:55721   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:56800   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:57035   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:57406   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:57530   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:58129   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:58289   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:59307   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:59457   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:60316   warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:60461   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:60487   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:60599   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:60717   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:60743   warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:61111   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:61387   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:61674   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:62055   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:62161   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:62203   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:62398   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:64364   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:64819   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:64892   warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:64894   warning  'e' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:64896   warning  'r' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:65022   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:65421   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:65636   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:65844   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:66158   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:66285   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:66488   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:66757   warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:67006   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:67030   warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:67157   warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:67171   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:67534   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:67812   warning  'r' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:67853   warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:68006   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:68413   warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:68643   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:68926   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:69086   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:69260   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:69429   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:69672   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:70078   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:70346   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:70831   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:71466   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:72605   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:72650   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:72722   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:72852   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:72914   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:72939   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:73433   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:73611   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:73934   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:74056   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:74199   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:74276   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:74352   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:74474   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:74569   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:74897   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:75185   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:75556   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:75607   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:75702   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:76872   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:77142   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:77315   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:77424   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:77482   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:77651   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:77962   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:78471   warning  'e' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:78606   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:79039   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:79214   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:79364   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:79464   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:79701   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:79737   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:79778   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:80500   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:80629   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:80719   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:81693   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:81805   error    Unexpected aliasing of 'this' to local variable                        @typescript-eslint/no-this-alias
+  1:82124   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:82237   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:82463   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:82711   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:82893   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:82989   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:83157   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:83280   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:83400   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:83589   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:83826   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:83923   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:84075   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:84409   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:84665   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:84876   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:84938   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:85000   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:85081   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:85213   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:85521   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:85686   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:85710   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:86182   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:86269   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:86368   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:86494   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:86754   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:86833   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:87088   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:87230   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:87279   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:88429   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:88512   error    Unexpected aliasing of 'this' to local variable                        @typescript-eslint/no-this-alias
+  1:89035   warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:89749   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:89879   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:90001   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:90214   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:90349   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:90606   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:90878   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:92059   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:92137   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:92492   warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:92524   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:92699   warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:92998   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:93356   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:93484   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:93999   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:94127   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:94645   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:95086   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:95881   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:96030   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:96566   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:96668   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:96766   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:97263   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:97277   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:97589   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:98186   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:98285   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:98793   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:98978   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:99018   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:99102   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:99170   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:99337   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:99400   warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:99527   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:99727   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:99864   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:99954   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:100054  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:100225  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:100325  warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:100690  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:100843  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:100889  error    Unexpected aliasing of 'this' to local variable                        @typescript-eslint/no-this-alias
+  1:100994  warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:100998  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:101012  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:101232  error    Unexpected aliasing of 'this' to local variable                        @typescript-eslint/no-this-alias
+  1:101320  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:101352  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:101382  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:101647  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:101692  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:101754  error    Unexpected aliasing of 'this' to local variable                        @typescript-eslint/no-this-alias
+  1:102140  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:102302  error    Unexpected aliasing of 'this' to local variable                        @typescript-eslint/no-this-alias
+  1:102390  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:102422  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:102452  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:102519  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:102662  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:102723  error    Unexpected aliasing of 'this' to local variable                        @typescript-eslint/no-this-alias
+  1:102838  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:102870  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:102900  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:102931  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:103566  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:103714  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:104103  warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:104872  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:105241  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:105576  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:107498  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:107532  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:107901  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:108458  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:109377  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:109611  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:110184  warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:110187  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:110205  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:110524  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:110800  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:111418  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:111526  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:112164  warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:112205  warning  'e' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:112407  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:112475  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+
+/Users/inga/sistema-dobra/.next/static/chunks/webpack.js
+    17:12   error    Do not assign to the variable `module`. See: https://nextjs.org/docs/messages/no-assign-module-variable  @next/next/no-assign-module-variable
+   154:37   warning  'chunkId' is defined but never used                                                                      @typescript-eslint/no-unused-vars
+   172:44   warning  'chunkId' is defined but never used                                                                      @typescript-eslint/no-unused-vars
+   194:22   warning  'e' is defined but never used                                                                            @typescript-eslint/no-unused-vars
+   210:53   warning  'chunkId' is defined but never used                                                                      @typescript-eslint/no-unused-vars
+   240:14   warning  Expected an assignment or function call and instead saw an expression                                    @typescript-eslint/no-unused-expressions
+   241:14   warning  Expected an assignment or function call and instead saw an expression                                    @typescript-eslint/no-unused-expressions
+   247:13   warning  Expected an assignment or function call and instead saw an expression                                    @typescript-eslint/no-unused-expressions
+   323:13   error    Do not assign to the variable `module`. See: https://nextjs.org/docs/messages/no-assign-module-variable  @next/next/no-assign-module-variable
+   778:16   warning  'loadStylesheet' is assigned a value but never used                                                      @typescript-eslint/no-unused-vars
+   790:32   warning  'options' is defined but never used                                                                      @typescript-eslint/no-unused-vars
+   802:114  warning  'updatedModulesList' is defined but never used                                                           @typescript-eslint/no-unused-vars
+   937:15   error    Do not assign to the variable `module`. See: https://nextjs.org/docs/messages/no-assign-module-variable  @next/next/no-assign-module-variable
+  1100:14   error    Do not assign to the variable `module`. See: https://nextjs.org/docs/messages/no-assign-module-variable  @next/next/no-assign-module-variable
+  1130:16   error    Do not assign to the variable `module`. See: https://nextjs.org/docs/messages/no-assign-module-variable  @next/next/no-assign-module-variable
+  1195:17   error    Do not assign to the variable `module`. See: https://nextjs.org/docs/messages/no-assign-module-variable  @next/next/no-assign-module-variable
+
+/Users/inga/sistema-dobra/.next/static/development/_buildManifest.js
+  1:185  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+
+/Users/inga/sistema-dobra/.next/static/development/_ssgManifest.js
+  1:29  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+
+/Users/inga/sistema-dobra/.next/types/app/layout.ts
+   7:39   error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                   @typescript-eslint/no-explicit-any
+   7:71   error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                   @typescript-eslint/no-explicit-any
+  13:12   error    The `Function` type accepts any function-like value.
+Prefer explicitly defining any function parameters and return type                                                                                                                                                                                                                                                                    @typescript-eslint/no-unsafe-function-type
+  14:12   error    The `{}` ("empty object") type allows any non-nullish value, including literals like `0` and `""`.
+- If that's what you want, disable this lint rule with an inline comment or configure the 'allowObjectTypes' rule option.
+- If you want a type meaning "any object", you probably want `object` instead.
+- If you want a type meaning "any value", you probably want `unknown` instead  @typescript-eslint/no-empty-object-type
+  15:26   error    The `Function` type accepts any function-like value.
+Prefer explicitly defining any function parameters and return type                                                                                                                                                                                                                                                                    @typescript-eslint/no-unsafe-function-type
+  24:14   error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                   @typescript-eslint/no-explicit-any
+  25:22   error    The `Function` type accepts any function-like value.
+Prefer explicitly defining any function parameters and return type                                                                                                                                                                                                                                                                    @typescript-eslint/no-unsafe-function-type
+  26:14   error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                   @typescript-eslint/no-explicit-any
+  27:22   error    The `Function` type accepts any function-like value.
+Prefer explicitly defining any function parameters and return type                                                                                                                                                                                                                                                                    @typescript-eslint/no-unsafe-function-type
+  51:72   error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                   @typescript-eslint/no-explicit-any
+  51:88   error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                   @typescript-eslint/no-explicit-any
+  56:26   error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                   @typescript-eslint/no-explicit-any
+  66:51   error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                   @typescript-eslint/no-explicit-any
+  69:37   error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                   @typescript-eslint/no-explicit-any
+  69:42   warning  '_M' is defined but never used                                                                                                                                                                                                                                                                                                                                                             @typescript-eslint/no-unused-vars
+  70:84   error    The `{}` ("empty object") type allows any non-nullish value, including literals like `0` and `""`.
+- If that's what you want, disable this lint rule with an inline comment or configure the 'allowObjectTypes' rule option.
+- If you want a type meaning "any object", you probably want `object` instead.
+- If you want a type meaning "any value", you probably want `unknown` instead  @typescript-eslint/no-empty-object-type
+  72:15   warning  'T' is defined but never used                                                                                                                                                                                                                                                                                                                                                              @typescript-eslint/no-unused-vars
+  72:25   error    The `Function` type accepts any function-like value.
+Prefer explicitly defining any function parameters and return type                                                                                                                                                                                                                                                                    @typescript-eslint/no-unsafe-function-type
+  72:67   error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                   @typescript-eslint/no-explicit-any
+  72:76   error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                   @typescript-eslint/no-explicit-any
+  72:102  error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                   @typescript-eslint/no-explicit-any
+  73:16   warning  'T' is defined but never used                                                                                                                                                                                                                                                                                                                                                              @typescript-eslint/no-unused-vars
+  73:26   error    The `Function` type accepts any function-like value.
+Prefer explicitly defining any function parameters and return type                                                                                                                                                                                                                                                                    @typescript-eslint/no-unsafe-function-type
+  73:59   error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                   @typescript-eslint/no-explicit-any
+  73:77   error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                   @typescript-eslint/no-explicit-any
+  73:103  error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                   @typescript-eslint/no-explicit-any
+  74:84   error    The `Function` type accepts any function-like value.
+Prefer explicitly defining any function parameters and return type                                                                                                                                                                                                                                                                    @typescript-eslint/no-unsafe-function-type
+  78:22   warning  '_' is defined but never used                                                                                                                                                                                                                                                                                                                                                              @typescript-eslint/no-unused-vars
+  78:46   error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                   @typescript-eslint/no-explicit-any
+
+/Users/inga/sistema-dobra/.next/types/app/page.ts
+   7:39   error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                   @typescript-eslint/no-explicit-any
+   7:71   error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                   @typescript-eslint/no-explicit-any
+  13:12   error    The `Function` type accepts any function-like value.
+Prefer explicitly defining any function parameters and return type                                                                                                                                                                                                                                                                    @typescript-eslint/no-unsafe-function-type
+  14:12   error    The `{}` ("empty object") type allows any non-nullish value, including literals like `0` and `""`.
+- If that's what you want, disable this lint rule with an inline comment or configure the 'allowObjectTypes' rule option.
+- If you want a type meaning "any object", you probably want `object` instead.
+- If you want a type meaning "any value", you probably want `unknown` instead  @typescript-eslint/no-empty-object-type
+  15:26   error    The `Function` type accepts any function-like value.
+Prefer explicitly defining any function parameters and return type                                                                                                                                                                                                                                                                    @typescript-eslint/no-unsafe-function-type
+  24:14   error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                   @typescript-eslint/no-explicit-any
+  25:22   error    The `Function` type accepts any function-like value.
+Prefer explicitly defining any function parameters and return type                                                                                                                                                                                                                                                                    @typescript-eslint/no-unsafe-function-type
+  26:14   error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                   @typescript-eslint/no-explicit-any
+  27:22   error    The `Function` type accepts any function-like value.
+Prefer explicitly defining any function parameters and return type                                                                                                                                                                                                                                                                    @typescript-eslint/no-unsafe-function-type
+  51:72   error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                   @typescript-eslint/no-explicit-any
+  51:88   error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                   @typescript-eslint/no-explicit-any
+  56:26   error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                   @typescript-eslint/no-explicit-any
+  66:51   error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                   @typescript-eslint/no-explicit-any
+  69:37   error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                   @typescript-eslint/no-explicit-any
+  69:42   warning  '_M' is defined but never used                                                                                                                                                                                                                                                                                                                                                             @typescript-eslint/no-unused-vars
+  70:84   error    The `{}` ("empty object") type allows any non-nullish value, including literals like `0` and `""`.
+- If that's what you want, disable this lint rule with an inline comment or configure the 'allowObjectTypes' rule option.
+- If you want a type meaning "any object", you probably want `object` instead.
+- If you want a type meaning "any value", you probably want `unknown` instead  @typescript-eslint/no-empty-object-type
+  72:15   warning  'T' is defined but never used                                                                                                                                                                                                                                                                                                                                                              @typescript-eslint/no-unused-vars
+  72:25   error    The `Function` type accepts any function-like value.
+Prefer explicitly defining any function parameters and return type                                                                                                                                                                                                                                                                    @typescript-eslint/no-unsafe-function-type
+  72:67   error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                   @typescript-eslint/no-explicit-any
+  72:76   error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                   @typescript-eslint/no-explicit-any
+  72:102  error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                   @typescript-eslint/no-explicit-any
+  73:16   warning  'T' is defined but never used                                                                                                                                                                                                                                                                                                                                                              @typescript-eslint/no-unused-vars
+  73:26   error    The `Function` type accepts any function-like value.
+Prefer explicitly defining any function parameters and return type                                                                                                                                                                                                                                                                    @typescript-eslint/no-unsafe-function-type
+  73:59   error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                   @typescript-eslint/no-explicit-any
+  73:77   error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                   @typescript-eslint/no-explicit-any
+  73:103  error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                   @typescript-eslint/no-explicit-any
+  74:84   error    The `Function` type accepts any function-like value.
+Prefer explicitly defining any function parameters and return type                                                                                                                                                                                                                                                                    @typescript-eslint/no-unsafe-function-type
+  78:22   warning  '_' is defined but never used                                                                                                                                                                                                                                                                                                                                                              @typescript-eslint/no-unused-vars
+  78:46   error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                   @typescript-eslint/no-explicit-any
+
+/Users/inga/sistema-dobra/src/app/(site)/dashboard/page.tsx
+   60:6   warning  React Hook useEffect has a missing dependency: 'fetchTransfers'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  122:13  warning  'data' is assigned a value but never used                                                                          @typescript-eslint/no-unused-vars
+
+/Users/inga/sistema-dobra/src/app/dashboard/page.tsx
+    2:1   warning  Expected an assignment or function call and instead saw an expression                                              @typescript-eslint/no-unused-expressions
+   11:8   warning  'TransferStatusBadge' is defined but never used                                                                    @typescript-eslint/no-unused-vars
+   54:6   warning  React Hook useEffect has a missing dependency: 'fetchTransfers'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  116:13  warning  'data' is assigned a value but never used                                                                          @typescript-eslint/no-unused-vars
+
+/Users/inga/sistema-dobra/src/app/receive/page.tsx
+  23:15  warning  'data' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/Users/inga/sistema-dobra/src/app/user/[email]/page.tsx
+  3:1  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+
+/Users/inga/sistema-dobra/src/app/verify/page.tsx
+  7:6  warning  'Transfer' is defined but never used  @typescript-eslint/no-unused-vars
+
+✖ 1244 problems (89 errors, 1155 warnings)
+
