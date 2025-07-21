@@ -1,31 +1,24 @@
 'use client';
 
 import TransferItem from './TransferItem';
-
-type Transfer = {
-  id: number;
-  from: string;
-  to: string;
-  amount: number;
-  message?: string;
-  step: string;
-  timestamp: string;
-};
+import { Transfer } from '@/hooks/useLocalTransfers';
 
 type TransferListProps = {
   transfers: Transfer[];
+  onRemove?: (id: number) => void;
 };
 
-export default function TransferList({ transfers }: TransferListProps) {
+export default function TransferList({ transfers, onRemove }: TransferListProps) {
   if (transfers.length === 0) {
-    return <p className="text-gray-500 italic">No transfers found.</p>;
+    return <p className='text-gray-500 italic'>No transfers found.</p>;
   }
 
   return (
-    <div className="space-y-4">
+    <div className='space-y-4'>
       {transfers.map((t) => (
-        <TransferItem key={t.id} {...t} />
+        <TransferItem key={t.id} {...t} onDelete={onRemove} />
       ))}
     </div>
   );
 }
+
